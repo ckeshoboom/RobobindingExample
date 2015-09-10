@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    xmlns:bind="http://robobinding.org/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:text="@string/title"
+        android:textColor="#cf5567"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNumber"
+        android:layout_below="@id/tvName"
+        android:text="@string/number"
+        android:textColor="#2daf5d"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail"
+        android:layout_toRightOf="@id/tvNumber"
+        android:layout_alignBottom="@id/tvNumber"
+        android:text="@string/email"
+        bind:text="${email}"
+        android:textColor="#234567"/>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RobobindingExample</string>
+    <string name="drawertitle">Robobinding drawer</string>
+    <string name="title">Robobinding son!</string>
+    <string name="email">Email</string>
+    <string name="number">Phonenumber</string>
+    <string name="action_settings">Settings</string>
+</resources>
